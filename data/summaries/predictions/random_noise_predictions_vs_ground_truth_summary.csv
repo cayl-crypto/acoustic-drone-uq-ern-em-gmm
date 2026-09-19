@@ -1,0 +1,2 @@
+condition,num_samples,mean_bearing_deg_pred,std_bearing_deg_pred,mean_range_m_pred,std_range_m_pred
+random_noise,1500,-176.22378671264647,0.9431361436276271,83.01366931660971,0.7531158881723814

@@ -1,0 +1,2 @@
+split,num_samples,mae_bearing_deg,rmse_bearing_deg,mae_range_m,rmse_range_m,mae_euclidean_m,rmse_euclidean_m,median_bearing_error_deg,median_range_error_m,median_euclidean_error_m
+val_evaluation,2904,11.969338169211257,29.397072645041224,6.715482688257496,11.891599067479971,17.68038377977302,34.63196390677012,2.476947546005249,2.9443036317825317,5.794224739074707

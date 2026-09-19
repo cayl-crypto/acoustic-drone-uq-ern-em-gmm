@@ -1,0 +1,31 @@
+{
+  "id": "7981",
+  "condition": "plain",
+  "category": "ERN_C",
+  "pick": "median",
+  "gmm": {
+    "below_min_pct": 0.012797694052419355,
+    "low_pct": 53.97437310987903,
+    "med_pct": 36.00739509828629,
+    "high_pct": 7.733351184475806,
+    "very_high_pct": 1.981870589717742,
+    "above_max_pct": 0.2902123235887097
+  },
+  "ern_uncertainty": {
+    "sigma_sin": 2.6024954319000244,
+    "sigma_sin_band": 3,
+    "sigma_cos": 9.604098320007324,
+    "sigma_cos_band": 3,
+    "sigma_range": 0.28193509578704834,
+    "sigma_range_band": 4,
+    "bearing_std_deg": 278.04034423828125,
+    "bearing_std_deg_band": 2
+  },
+  "ern_prediction": {
+    "sin_mu": -0.3800341486930847,
+    "cos_mu": 0.8587877750396729,
+    "range_mu": 0.17317625880241394,
+    "bearing_deg_pred": -23.87053871154785,
+    "range_m_pred": 43.294063568115234
+  }
+}

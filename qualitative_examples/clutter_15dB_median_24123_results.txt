@@ -1,0 +1,25 @@
+Clutter 15dB median 24123
+
+GMM
+
+00024123	15dB	clutter_15dB	gmm_optimal_k	00024123.pt	FALSE		/path/to/DDLDataset/conformal_bands/test/model_c0p3_kl0/gmm_1x1x1/clutter_15dB/gmm_optimal_k/pt/00024123_bands.pt	507904	112	304099	81453	60077	32846	29317	0.022051411290322582	59.87332251764113	16.037085748487904	11.828416393649194	6.466970136	5.772153792842742	5.794205204133065
+
+
+507904	
+below_min	low	medium	high	very_high	above_max
+112	304099	81453	60077	32846	29317
+0.022051411290322582	59.87332251764113	16.037085748487904	11.828416393649194	6.466970136	5.772153792842742
+
+
+ERN Uncertainty
+
+ID	condition	bearing_deg_gt	range_m_gt	bearing_error_deg	range_error_m	euclidean_error_m	aleatoric_var_sin	aleatoric_var_sin_band	epistemic_var_sin	epistemic_var_sin_band	total_var_sin	total_var_sin_band	sigma_sin	sigma_sin_band	aleatoric_var_cos	aleatoric_var_cos_band	epistemic_var_cos	epistemic_var_cos_band	total_var_cos	total_var_cos_band	sigma_cos	sigma_cos_band	aleatoric_var_range	aleatoric_var_range_band	epistemic_var_range	epistemic_var_range_band	total_var_range	total_var_range_band	sigma_range	sigma_range_band	bearing_std_deg	bearing_std_deg_band
+
+24123	clutter_15dB	41	68	114.92330169677734	21.995201110839844	87.98818969726562	0.001421999	2	0.051484670490026474	2	0.052906669676303864	2	0.23001450300216675	2	0.001078428	1	0.02456161	2	0.025640038773417473	2	0.16012507677078247	2	8.149256609613076e-05	1	0.000307281	1	0.000388773	1	0.019717338	1	33.24971389770508	2
+
+ERN Prediction
+
+ID	condition	sin_mu	sin_v	sin_alpha	sin_beta	cos_mu	cos_v	cos_alpha	cos_beta	range_mu	range_v	range_alpha	range_beta	bearing_deg_pred	range_m_pred	aleatoric_var_sin	epistemic_var_sin	total_var_sin	sigma_sin	aleatoric_var_cos	epistemic_var_cos	total_var_cos	sigma_cos	aleatoric_var_range	epistemic_var_range	total_var_range	sigma_range	bearing_std_deg
+
+00024123	clutter_15dB	0.15460853278636932	0.027619848027825356	1.3062472343444824	0.000435483	-0.346009135	0.043907053768634796	1.1304072141647339	0.000140635	0.35998082160949707	0.2652054727077484	2.5974512100219727	0.00013018	155.92330932617188	89.99520874023438	0.001421999	0.051484670490026474	0.052906669676303864	0.23001450300216675	0.001078428	0.02456161	0.025640038773417473	0.16012507677078247	8.149256609613076e-05	0.000307281	0.000388773	0.019717338	33.24971389770508
+

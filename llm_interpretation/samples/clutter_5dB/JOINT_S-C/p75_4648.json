@@ -1,0 +1,31 @@
+{
+  "id": "4648",
+  "condition": "clutter_5dB",
+  "category": "JOINT_S/C",
+  "pick": "p75",
+  "gmm": {
+    "below_min_pct": 0.0041346396169354835,
+    "low_pct": 15.089268838205646,
+    "med_pct": 34.43623204385081,
+    "high_pct": 21.91103043094758,
+    "very_high_pct": 8.371070123487904,
+    "above_max_pct": 20.188263923891128
+  },
+  "ern_uncertainty": {
+    "sigma_sin": 0.4676761031150818,
+    "sigma_sin_band": 2,
+    "sigma_cos": 0.4276443123817444,
+    "sigma_cos_band": 2,
+    "sigma_range": 0.015172029845416546,
+    "sigma_range_band": 1,
+    "bearing_std_deg": 57.623252868652344,
+    "bearing_std_deg_band": 2
+  },
+  "ern_prediction": {
+    "sin_mu": -0.08875803649425507,
+    "cos_mu": 0.4550442397594452,
+    "range_mu": 0.34918227791786194,
+    "bearing_deg_pred": -11.03717041015625,
+    "range_m_pred": 87.29557037353516
+  }
+}

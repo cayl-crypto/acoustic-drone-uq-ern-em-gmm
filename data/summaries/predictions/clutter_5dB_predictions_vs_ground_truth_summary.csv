@@ -1,0 +1,2 @@
+condition,num_samples,mae_bearing_deg,rmse_bearing_deg,mae_range_m,rmse_range_m,mae_euclidean_m,rmse_euclidean_m,median_bearing_error_deg,median_range_error_m,median_euclidean_error_m
+clutter_5dB,11628,84.80075536624543,105.54287396903796,35.5043067147601,46.50571799588542,83.33302175892068,94.707264827417,81.47919845581055,30.29301166534424,80.32351303100586

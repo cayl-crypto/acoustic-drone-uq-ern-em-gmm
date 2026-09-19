@@ -1,0 +1,32 @@
+Clutter m5dB 36602
+
+
+GMM
+
+
+ID	noise_level	condition	distance	feature_file	missing_feature	error	band_pt_path	num_positions	below_min_count	low_count	med_count	high_count	very_high_count	above_max_count	below_min_pct	low_pct	med_pct	high_pct	very_high_pct	above_max_pct	ood_pct
+
+
+00036602	15dB	clutter_-5dB	gmm_optimal_k	00036602.pt	FALSE		/path/to/DDLDataset/conformal_bands/test/model_c0p3_kl0/gmm_1x1x1/clutter_-5dB/gmm_optimal_k/pt/00036602_bands.pt	507904	6	15805	52189	139873	92742	207289	0.001181326	3.1118085307459675	10.275366998487904	27.539259387600808	18.259749873991936	40.81263388356855	40.813815209173384
+
+
+507904	
+below_min	low	medium	high	very_high	above_max
+6	15805	52189	139873	92742	207289
+0.001181326	3.1118085307459675	10.275366998487904	27.539259387600808	18.259749873991936	40.81263388356855
+
+
+ERN Uncertainty
+
+ID	condition	bearing_deg_gt	range_m_gt	bearing_error_deg	range_error_m	euclidean_error_m	aleatoric_var_sin	aleatoric_var_sin_band	epistemic_var_sin	epistemic_var_sin_band	total_var_sin	total_var_sin_band	sigma_sin	sigma_sin_band	aleatoric_var_cos	aleatoric_var_cos_band	epistemic_var_cos	epistemic_var_cos_band	total_var_cos	total_var_cos_band	sigma_cos	sigma_cos_band	aleatoric_var_range	aleatoric_var_range_band	epistemic_var_range	epistemic_var_range_band	total_var_range	total_var_range_band	sigma_range	sigma_range_band	bearing_std_deg	bearing_std_deg_band
+
+
+36602	clutter_-5dB	-85	61	93.60732269	18.97040367126465	95.64496612548828	0.000580062	1	0.012417950667440891	1	0.012998012825846672	1	0.114008829	1	0.000508785	1	0.007455321	1	0.007964106	1	0.08924184	1	4.920195715385489e-05	1	0.000203644	1	0.000252846	1	0.015901125967502594	1	7.469274044036865	1
+
+
+
+ERN Prediction
+
+ID	condition	sin_mu	sin_v	sin_alpha	sin_beta	cos_mu	cos_v	cos_alpha	cos_beta	range_mu	range_v	range_alpha	range_beta	bearing_deg_pred	range_m_pred	aleatoric_var_sin	epistemic_var_sin	total_var_sin	sigma_sin	aleatoric_var_cos	epistemic_var_cos	total_var_cos	sigma_cos	aleatoric_var_range	epistemic_var_range	total_var_range	sigma_range	bearing_std_deg
+
+00036602	clutter_-5dB	-0.021253044	0.046711549162864685	1.5104022026062012	0.000296065	-0.874187887	0.068244562	1.319730520248413	0.000162674	0.3198816180229187	0.24160784482955933	2.800245761871338	8.857561624608934e-05	-178.6073151	79.97040557861328	0.000580062	0.012417950667440891	0.012998012825846672	0.114008829	0.000508785	0.007455321	0.007964106	0.08924184	4.920195715385489e-05	0.000203644	0.000252846	0.015901125967502594	7.469274044036865

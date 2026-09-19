@@ -1,0 +1,31 @@
+{
+  "id": "10842",
+  "condition": "clutter_5dB",
+  "category": "ERN_S",
+  "pick": "low",
+  "gmm": {
+    "below_min_pct": 0.007678616431451613,
+    "low_pct": 22.284329322076612,
+    "med_pct": 29.94876984627016,
+    "high_pct": 19.626346711189516,
+    "very_high_pct": 12.086536038306452,
+    "above_max_pct": 16.046339465725808
+  },
+  "ern_uncertainty": {
+    "sigma_sin": 0.03594005107879639,
+    "sigma_sin_band": 1,
+    "sigma_cos": 0.008278926834464073,
+    "sigma_cos_band": 1,
+    "sigma_range": 0.041680287569761276,
+    "sigma_range_band": 2,
+    "bearing_std_deg": 2.098412275314331,
+    "bearing_std_deg_band": 1
+  },
+  "ern_prediction": {
+    "sin_mu": -0.17574012279510498,
+    "cos_mu": -0.9496901035308838,
+    "range_mu": 0.4761982858181,
+    "bearing_deg_pred": -169.51602172851562,
+    "range_m_pred": 119.04956817626953
+  }
+}

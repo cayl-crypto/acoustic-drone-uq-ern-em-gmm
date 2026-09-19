@@ -1,0 +1,6 @@
+# Analysis scripts, polar_plot_tool/, llm_interpretation/generate_llm_json.py
+numpy
+matplotlib
+
+# model_code/ additionally needs (versions not pinned; see model_code/ imports):
+#   torch, torchaudio, pandas, tqdm

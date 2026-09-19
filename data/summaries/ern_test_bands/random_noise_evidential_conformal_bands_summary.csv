@@ -1,0 +1,14 @@
+condition,uncertainty_type,num_samples,mean_value,below_min_pct,low_pct,med_pct,high_pct,very_high_pct,above_max_pct,ood_pct
+random_noise,aleatoric_var_sin,1500,0.00023808807369399195,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,epistemic_var_sin,1500,0.0036979024480096995,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,total_var_sin,1500,0.003935990517182897,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,sigma_sin,1500,0.06266940401742856,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,aleatoric_var_cos,1500,0.00018244613730348646,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,epistemic_var_cos,1500,0.0018130420863162727,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,total_var_cos,1500,0.0019954882212914527,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,sigma_cos,1500,0.044545717140038806,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,aleatoric_var_range,1500,2.9168871952909587e-05,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,epistemic_var_range,1500,0.00010778549177242287,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,total_var_range,1500,0.00013695436362468172,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,sigma_range,1500,0.01169893790098528,0.0,100.0,0.0,0.0,0.0,0.0,0.0
+random_noise,bearing_std_deg,1500,4.397303641796112,0.0,100.0,0.0,0.0,0.0,0.0,0.0

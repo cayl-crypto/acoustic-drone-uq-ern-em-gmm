@@ -1,0 +1,31 @@
+{
+  "id": "31842",
+  "condition": "clutter_15dB",
+  "category": "GMM_C",
+  "pick": "median",
+  "gmm": {
+    "below_min_pct": 0.005906628024193549,
+    "low_pct": 19.339678364415324,
+    "med_pct": 38.64864226310484,
+    "high_pct": 23.51743636592742,
+    "very_high_pct": 8.143074281754032,
+    "above_max_pct": 10.345262096774194
+  },
+  "ern_uncertainty": {
+    "sigma_sin": 0.2189154028892517,
+    "sigma_sin_band": 2,
+    "sigma_cos": 0.7409987449645996,
+    "sigma_cos_band": 2,
+    "sigma_range": 0.021948562934994698,
+    "sigma_range_band": 1,
+    "bearing_std_deg": 33.359432220458984,
+    "bearing_std_deg_band": 2
+  },
+  "ern_prediction": {
+    "sin_mu": -0.8652271628379822,
+    "cos_mu": -0.6135555505752563,
+    "range_mu": 0.3216666877269745,
+    "bearing_deg_pred": -125.34146881103516,
+    "range_m_pred": 80.41667175292969
+  }
+}
