@@ -184,7 +184,7 @@ Each polar plot shows the prediction (star), 1σ/2σ/3σ ellipses (Monte-Carlo, 
 prediction; see `polar_plot_tool/README.md`), the ground truth (blue X) and the microphone array
 (square at the origin), on a 0-250 m axis.
 
-![Qualitative examples (a) plain #381, (b) clutter_15dB #24123](qualitative_examples/Qualitative_examples.png)
+![Qualitative examples (a) plain #381, (b) clutter_15dB #24123](qualitative_examples/Qualitative_examples_claude_interpretation_cropped.png)
 
 *(a) `plain`, ID 381: predicted -23.6°, 98.0 m; GMM shows a largely familiar feature regime (93.1%
 of positions low/med, just under the 95.45% cutoff, so the tables label it GMM-C) and ERN
